@@ -1,6 +1,6 @@
 $(document).ready(function(){
 var container = $('<div class="console">');
-$('body').append(container);
+$('#wrapper').append(container);
 var controller = container.console({
   promptLabel: 'Demo> ',
   commandValidate:function(line){
